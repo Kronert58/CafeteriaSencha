@@ -24,10 +24,9 @@ Ext.onReady(function() {
         items: [{
             title: 'Panel 1',
             html: '<p>Contenido del primer panel</p>',
-            closable: true
         }, {
             title: 'Panel 2',
-            html: '<iframe src="http://www.orizaba.tecnm.edu.mx"></iframe>'
+            html: '<iframe src=></iframe>'
         }, {
             title: 'Panel 3',
             html: '<p><form>Hola <input type="text" name="txtNom"/></form></p>'
