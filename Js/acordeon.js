@@ -19,14 +19,13 @@ Ext.onReady(function() {
             type: 'accordion',
             titleCollapse: true,
             animate: true,
-            activeOnTop: true
         },
         items: [{
-            title: 'Panel 1',
-            html: '<p>Contenido del primer panel</p>',
+            title: 'Cafe Latte',
+            html: '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum suscipit deleniti iste enim consectetur facilis excepturi est, quae culpa, eligendi doloremque, tempore fugiat. Provident animi perspiciatis doloribus iure pariatur repudiandae?</p>',
         }, {
             title: 'Panel 2',
-            html: '<iframe src=></iframe>'
+            html: '<p>Contenido del primer panel</p>',
         }, {
             title: 'Panel 3',
             html: '<p><form>Hola <input type="text" name="txtNom"/></form></p>'
