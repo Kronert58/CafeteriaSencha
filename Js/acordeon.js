@@ -8,7 +8,7 @@ Ext.require([
 Ext.onReady(function() {
     Ext.create('Ext.panel.Panel', {
         title: 'Ejemplo Acorde&oacute;n',
-        width: '50em',
+        width: '50rem',
         height: 500, //si no dice la unidad, entonces son pixeles
         defaults: {
             // para todos los paneles del acordeón
