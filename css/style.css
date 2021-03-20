@@ -807,6 +807,11 @@ fieldset .help {
     width: 100px;
 }
 
+<<<<<<< HEAD
 .x-panel-default {
     display: flex !important;   
+=======
+.x-panel {
+   margin: 2rem 50rem 2rem 50rem;
+>>>>>>> d9ffdaf525c975b7d942b2c6e02238ec15bcfd7a
 }
