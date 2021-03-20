@@ -807,6 +807,6 @@ fieldset .help {
     width: 100px;
 }
 
-.acordeon {
-    a justify-content: center;
+.x-panel-default {
+    display: flex !important;   
 }
