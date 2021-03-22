@@ -7,8 +7,8 @@ Ext.require([
 ]);
 Ext.onReady(function() {
     Ext.create('Ext.panel.Panel', {
-        title: 'Ejemplo Acorde&oacute;n',
-        width: '50rem',
+        title: 'Acorde&oacute;n',
+        width: '100%',
         height: 500, //si no dice la unidad, entonces son pixeles
         defaults: {
             // para todos los paneles del acordeón
@@ -23,13 +23,13 @@ Ext.onReady(function() {
         },
         items: [{
             title: 'Panel 1',
-            html: '<p>Contenido del primer panel</p>',
+            html: '<p style="font-size:30px">Contenido del primer panel</p>',
         }, {
             title: 'Panel 2',
-            html: '<iframe src=></iframe>'
+            html: ''
         }, {
             title: 'Panel 3',
-            html: '<p><form>Hola <input type="text" name="txtNom"/></form></p>'
+            html: '<p></p>'
         }],
         renderTo: Ext.getBody()
     });
