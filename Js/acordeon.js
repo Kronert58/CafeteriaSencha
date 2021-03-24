@@ -27,10 +27,10 @@ Ext.onReady(function() {
             html: '<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab autem itaque reprehenderit, delectus animi perferendis in, aperiam quos dignissimos necessitatibus, facilis id nostrum adipisci inventore. Dolorem nulla ducimus id magni.</p>',
         }, {
             title: 'Panel 2',
-            html: '<iframe src=></iframe>'
+            html: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab autem itaque reprehenderit, delectus animi perferendis in, aperiam quos dignissimos necessitatibus, facilis id nostrum adipisci inventore. Dolorem nulla ducimus id magni.'
         }, {
             title: 'Panel 3',
-            html: '<p><form>Hola <input type="text" name="txtNom"/></form></p>'
+            html: '<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab autem itaque reprehenderit, delectus animi perferendis in, aperiam quos dignissimos necessitatibus, facilis id nostrum adipisci inventore. Dolorem nulla ducimus id magni.</p>'
         }],
         renderTo: Ext.getBody()
     });
