@@ -27,7 +27,7 @@ Ext.onReady(function() {
             html: '<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab autem itaque reprehenderit, delectus animi perferendis in, aperiam quos dignissimos necessitatibus, facilis id nostrum adipisci inventore. Dolorem nulla ducimus id magni.</p>',
         }, {
             title: 'Panel 2',
-            html: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab autem itaque reprehenderit, delectus animi perferendis in, aperiam quos dignissimos necessitatibus, facilis id nostrum adipisci inventore. Dolorem nulla ducimus id magni.'
+            html: '<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab autem itaque reprehenderit, delectus animi perferendis in, aperiam quos dignissimos necessitatibus, facilis id nostrum adipisci inventore. Dolorem nulla ducimus id magni.</p>'
         }, {
             title: 'Panel 3',
             html: '<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab autem itaque reprehenderit, delectus animi perferendis in, aperiam quos dignissimos necessitatibus, facilis id nostrum adipisci inventore. Dolorem nulla ducimus id magni.</p>'
