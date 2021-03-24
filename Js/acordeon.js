@@ -9,7 +9,8 @@ Ext.onReady(function() {
     Ext.create('Ext.panel.Panel', {
         title: 'Ejemplo Acorde&oacute;n',
         width: '50rem',
-        height: 500, //si no dice la unidad, entonces son pixeles
+        height: 500 , //si no dice la unidad, entonces son pixeles
+        fontSize: 'px',
         defaults: {
             // para todos los paneles del acordeón
             bodyStyle: 'padding:10px'
@@ -23,7 +24,7 @@ Ext.onReady(function() {
         },
         items: [{
             title: 'Panel 1',
-            html: '<p>Contenido del primer panel</p>',
+            html: '<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab autem itaque reprehenderit, delectus animi perferendis in, aperiam quos dignissimos necessitatibus, facilis id nostrum adipisci inventore. Dolorem nulla ducimus id magni.</p>',
         }, {
             title: 'Panel 2',
             html: '<iframe src=></iframe>'
